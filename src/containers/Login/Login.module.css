@@ -1,0 +1,57 @@
+.Login {
+  padding: 1em;
+  box-sizing: border-box;
+  box-shadow: 0 0 5px 5px #9b9b9b;
+  border-radius: 1em;
+  width: 40%;
+}
+
+.LoginTitle {
+  font-size: 20px;
+  border-bottom: 1px solid #bbbaba;
+  padding-bottom: 1em;
+  margin: 0.5em auto;
+}
+
+.LoginActions {
+  display: flex;
+  padding: 1em;
+  justify-content: center;
+}
+
+.LoginButton {
+  background-color: white;
+  padding: 1em;
+  font-size: 15px;
+  cursor: pointer;
+  border: 0;
+  border-radius: 5px;
+}
+
+.LoginButton:hover {
+  background-color: #c7c7c7;
+}
+
+.InputBlock {
+  display: flex;
+  gap: 1em;
+  padding: 1em;
+  width: 100%;
+}
+
+.Input {
+  padding: 0.75em;
+  font-size: 18px;
+  width: 85%;
+}
+
+.InputHost {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.LoginErrors {
+  margin: 1em;
+  color: #b80303;
+}

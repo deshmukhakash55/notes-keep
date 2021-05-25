@@ -1,0 +1,21 @@
+.Layout {
+  height: 100vh;
+}
+
+.Login {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Logo {
+  position: fixed;
+  top: 5%;
+  left: 5%;
+  font-size: 20px;
+  border: 2px solid #2854a5;
+  padding: 1em;
+  border-radius: 50px;
+  color: #2854a5;
+}

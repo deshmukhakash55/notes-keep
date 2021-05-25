@@ -1,0 +1,17 @@
+.NotesList {
+  display: flex;
+  gap: 1em;
+  justify-content: center;
+  padding: 1em;
+  margin: auto;
+  width: 80%;
+}
+
+.NotesColumn {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 33.33%;
+  gap: 1em;
+}

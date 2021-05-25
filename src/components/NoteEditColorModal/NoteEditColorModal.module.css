@@ -1,0 +1,43 @@
+.NoteEditColorModal {
+  width: 100%;
+}
+
+.NoteEditColorModalTitle {
+  padding-bottom: 2em;
+  font-size: 18px;
+}
+
+.Color {
+  width: 2em;
+  height: 2em;
+  border: 1px solid #292929;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.ColorButtons {
+  padding-top: 2em;
+  display: flex;
+  justify-content: center;
+  gap: 1em;
+}
+
+.Close {
+  padding-top: 1em;
+  display: flex;
+  width: 100%;
+  justify-content: flex-end;
+}
+
+.CloseButton {
+  background-color: white;
+  border: 0;
+  padding: 1em;
+  font-size: 1em;
+  cursor: pointer;
+}
+
+.CloseButton:hover {
+  background-color: #9e9e9e;
+  border-radius: 2px;
+}

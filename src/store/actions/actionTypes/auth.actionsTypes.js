@@ -1,0 +1,5 @@
+export const LOGIN_START = "[AUTH] LOGIN_START";
+export const LOGIN_PROGRESS = "[AUTH] LOGIN_PROGRESS";
+export const LOGIN_END = "[AUTH] LOGIN_END";
+export const LOGIN_FAILED = "[AUTH] LOGIN_FAILED";
+export const LOGIN_SUCCESS = "[AUTH] LOGIN_SUCCESS";

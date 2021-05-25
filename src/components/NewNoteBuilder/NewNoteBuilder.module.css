@@ -1,0 +1,83 @@
+.NewNoteBuilder {
+  margin: 1em;
+  padding: 0.25em;
+  width: 98%;
+  display: flex;
+  justify-content: center;
+}
+
+.NewNoteNotifier {
+  width: 40%;
+  box-sizing: border-box;
+  padding: 1em;
+  text-align: left;
+  cursor: text;
+  color: #797878;
+  border-radius: 5px;
+  box-shadow: 0 0 5px 5px #aaaaaa;
+}
+
+.NewNoteInputBlock {
+  width: 40%;
+  box-sizing: border-box;
+  padding: 1em;
+  text-align: left;
+  cursor: text;
+  color: #797878;
+  border-radius: 5px;
+  box-shadow: 0 0 5px 5px #aaaaaa;
+}
+
+.Input {
+  padding: 1em;
+  width: 90%;
+  border-radius: 2px;
+  border: 2px solid #666666;
+}
+
+.InputBlock {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.InputBlockClass {
+  width: 100%;
+  padding: 1em;
+}
+
+.ColorPickerBlock {
+  display: flex;
+  gap: 1em;
+  color: #000;
+  padding: 1em;
+  justify-content: center;
+  align-items: center;
+}
+
+.Color {
+  width: 2em;
+  height: 2em;
+  border: 1px solid #292929;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.ColorPickerButtons {
+  display: flex;
+  gap: 0.5em;
+}
+
+.NewNoteActions {
+  display: flex;
+  margin-top: 1em;
+  justify-content: flex-end;
+}
+
+.NewNoteActionButton {
+  background-color: rgba(0, 0, 0, 0);
+  border: 0;
+  padding: 1em;
+  font-size: 15px;
+  cursor: pointer;
+}

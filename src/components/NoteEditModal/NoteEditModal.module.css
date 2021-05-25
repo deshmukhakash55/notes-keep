@@ -1,0 +1,63 @@
+.NoteEditInput {
+  padding: 1em;
+  width: 100%;
+}
+
+.NoteEditModal {
+  width: 100%;
+}
+
+.Input {
+  display: flex;
+  gap: 1em;
+  width: 90%;
+}
+
+.InputBlockClass {
+  width: 100%;
+}
+
+.InputClassName {
+  width: 100%;
+}
+
+.NoteEditModalTitle {
+  font-size: 1.25em;
+  padding-bottom: 1em;
+  margin-bottom: 1em;
+  border-bottom: 1px solid #7c7979;
+}
+
+.SaveButton {
+  background-color: white;
+  color: #0c6b0c;
+  border: 0;
+  padding: 1em;
+  font-size: 0.9em;
+  cursor: pointer;
+}
+
+.SaveButton:hover {
+  background-color: #cfcece;
+  border-radius: 2px;
+}
+
+.CancelButton {
+  background-color: white;
+  color: #6b0c0c;
+  border: 0;
+  padding: 1em;
+  font-size: 0.9em;
+  cursor: pointer;
+}
+
+.CancelButton:hover {
+  background-color: #cfcece;
+  border-radius: 2px;
+}
+
+.EditNoteButtons {
+  margin-top: 1em;
+  display: flex;
+  flex-direction: row-reverse;
+}

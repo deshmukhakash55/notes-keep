@@ -1,0 +1,56 @@
+.Note {
+  padding: 1em;
+  border-radius: 0.5em;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  gap: 0.5em;
+  align-items: flex-start;
+  box-sizing: border-box;
+  width: 100%;
+  box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.75);
+}
+
+.NoteSectionSeparator {
+  width: 100%;
+  border-radius: 1em;
+}
+
+.NoteTitle {
+  font-size: 1.5em;
+}
+
+.EditModal,
+.EditColorModal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100vw;
+  background-color: hsla(0, 0%, 0%, 0.8);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.ModalContent {
+  padding: 2em;
+  background-color: white;
+  border-radius: 1em;
+  width: 40vw;
+  display: flex;
+  justify-content: center;
+  max-height: 70vh;
+}
+
+.NoteActionsHost {
+  width: 100%;
+}
+
+.NoteTitle,
+.NoteText {
+  width: 100%;
+  text-align: left;
+  padding-bottom: 1em;
+  margin-bottom: 0.5em;
+}

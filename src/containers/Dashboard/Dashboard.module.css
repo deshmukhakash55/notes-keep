@@ -1,0 +1,23 @@
+.Nav {
+  margin: 0 0 1em 0;
+  padding: 1em;
+  display: flex;
+  gap: 2em;
+  box-sizing: border-box;
+  align-items: center;
+  box-shadow: 0 0 5px 5px #929292;
+}
+
+.SearchBlock {
+  display: flex;
+  justify-content: center;
+  width: 67%;
+}
+
+.Logo {
+  font-size: 25px;
+  border: 2px solid #2854a5;
+  padding: 0.5em;
+  border-radius: 50px;
+  color: #2854a5;
+}
